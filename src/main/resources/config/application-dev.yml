@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/iotdb?useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+    username: root
+    password: root
+
+server:
+  port: 8082
+
+mqtt:
+  host: tcp://broker.emqx.io:1883
+  username: admin
+  password: public

@@ -1,0 +1,10 @@
+logging:
+  path: /opt/iot/logs
+
+server:
+  port: 8084
+
+mqtt:
+  host: tcp://broker.emqx.io:1883
+  username: admin
+  password: public
